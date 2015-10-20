@@ -1,0 +1,22 @@
+{
+  "name": "bacon-jest-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/sum.js",
+  "dependencies": {
+    "baconjs": "^0.7.77"
+  },
+  "jest": {
+    "unmockedModulePathPatterns": [
+      "baconjs"
+    ]
+  },
+  "devDependencies": {
+    "jest-cli": "^0.5.10"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ville Lautanala <lautis@gmail.com>",
+  "license": "MIT"
+}
